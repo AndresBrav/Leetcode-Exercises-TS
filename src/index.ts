@@ -3,6 +3,7 @@ import RomanToInteger from "./Exercises/RomanToInteger";
 import removeDuplicates from "./Exercises/RemoveDuplicatesfromSortedArray";
 import plusOne from "./Exercises/PlusOne";
 import plusOneV2 from "./Exercises/PlusOneV2";
+import singleNumber from "./Exercises/SingleNumber";
 
 //console.log(isPalindrome(-121));
 //console.log(RomanToInteger("III")); //58
@@ -11,4 +12,6 @@ import plusOneV2 from "./Exercises/PlusOneV2";
 //plusOne([6,1,4,5,3,9,0,1,9,5,1,8,6,7,0,5,5,4,3]);
 // plusOne([1,2,3])
 // plusOneV2([1,2,3])
-plusOneV2([1,9,9])
+// plusOneV2([1,9,9])
+singleNumber([4,1,2,2,5,1,4])
+// singleNumber([1])
