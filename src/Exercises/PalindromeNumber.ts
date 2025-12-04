@@ -1,4 +1,6 @@
 export const isPalindrome = (x: number): boolean => {
+    // the number you are entering is 
+    console.log(x)
     let res: boolean = false;
 
     let divisor = x;

@@ -12,9 +12,6 @@ function plusOne(digits: number[]): number[] {
     }
     let totalsum = sum + 1;
     
-    //console.log(" sum is     " +sum)
-    //console.log("totalsum is "+totalsum)
-
     let inverse: number[] = getArrayInverse(totalsum);
 
     let res: number[] = inverse.reverse();
